@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mi
     </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hola soy LU</h1>
+    <h1>Hola soy Lu </h1>
     <fieldset>
         <legend><h2>Sobre mi</h2></legend>    
     <p style="text-align: justify;">
@@ -15,47 +16,46 @@
       Me considero una persona creativa, comprometida y con muchas ganas de seguir aprendiendo. Estoy en constante búsqueda de nuevas oportunidades para crecer tanto a nivel profesional como personal.
     </p>
     </fieldset>
-    <img src="bored.jpg.jpg" style="width: 300px; height: auto;" alt="Foto de Luisa">
-    <p> <!-- centrar la foto -->
-  <a href="https://www.youtube.com/@luisavergara1478" target="_blank">
-    YouTube 
-  </a> <!-- centrar la palabra "youtube" con la foto -->
-</p>
-<h2>Hobbies</h2>
-<ul>
-    <li>Entrenar</li>
-    <li>Jugar videojuegos</li>
-    <li>Aprender idiomas y cosas nuevas</li>
-</ul>
-<h2>Tareas pendientes</h2>
-<ol>
-        <li>Trabajo</li>
-        <li>Adelantar tareas de inglés y francés</li>
-</ol>
-  <h2>Mi horario</h2>
+    <img src="bored.jpg" style="width: 300px; height: auto;" alt="Foto de Luisa" class="mi-imagen">
+    
+    <div class="bloque-centrado">
+  <h2>Hobbies</h2>
+  <ul>
+      <li>Entrenar</li>
+      <li>Jugar videojuegos</li>
+      <li>Aprender idiomas y cosas nuevas</li>
+  </ul>
 
-<table border="1" style="border-collapse: collapse;"> <!--agregar bordes a la tabla-->
- <thead>
-    <tr>
-    <th style="padding: 10px;">Lunes</th>
-    <th style="padding: 10px;">Martes</th>
-    <th style="padding: 10px;">Miércoles</th>
-    <th style="padding: 10px;">Jueves</th>
-    <th style="padding: 10px;">Viernes</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td style="padding: 10px;">Estudio ENG-FRA 22:00-24:00</td>
-    <td style="padding: 10px;">Estudio ENG-FRA 22:00-24:00</td>
-    <td style="padding: 10px;">Estudio ENG-FRA 22:00-24:00</td>
-    <td style="padding: 10px;">Estudio ENG-FRA 23:00-24:00</td>
-    <td style="padding: 10px;">Estudio ENG-FRA 23:00-24:00</td>
- </tr>
- </tbody>
-</table>
-<h2>Formulario de contacto</h2>
-  <form>
+  <h2>Tareas pendientes</h2>
+  <ol>
+      <li>Trabajo</li>
+      <li>Adelantar tareas de inglés y francés</li>
+  </ol>
+
+  <h2>Mi horario</h2>
+  <table class="tabla-personal">
+    <thead>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Estudio ENG-FRA 22:00-24:00</td>
+        <td>Estudio ENG-FRA 22:00-24:00</td>
+        <td>Estudio ENG-FRA 22:00-24:00</td>
+        <td>Estudio ENG-FRA 23:00-24:00</td>
+        <td>Estudio ENG-FRA 23:00-24:00</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Formulario de contacto</h2>
+  <form class="formulario">
     <label for="nombre">Nombre:</label><br>
     <input type="text" id="nombre" name="nombre"><br><br>
 
@@ -67,5 +67,7 @@
 
     <button type="submit">Enviar</button>
   </form>
+</div>
+
 </body>
 </html>
