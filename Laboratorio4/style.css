@@ -1,0 +1,91 @@
+body{ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-color: hsla(195, 19%, 92%, 0.842);}
+body { position: relative;}
+h1{color:rgba(54, 5, 54, 0.788);text-align: center;}
+legend{color: rgba(70, 46, 82, 0.938)}
+p{color: rgb(7, 68, 68);}
+fieldset {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  background-color: #e3e1eb73;
+}
+h2 {
+  color: #2e2b4f;
+  margin-top: 20px;
+  font-size: 1.5em;
+  border-bottom: 2px solid rgba(54, 5, 54, 0.3);
+  padding-bottom: 5px;
+}
+
+
+.mi-imagen {
+  display: block;
+  margin: 20px auto;
+  bottom: 20px;
+  width: 300px;
+  height: auto;
+  border: 1px solid #13073d;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(70, 46, 82, 0.938);
+}
+.bloque-centrado {
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo a listas */
+.bloque-centrado ul,
+.bloque-centrado ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+/* Tabla centrada y estilizada */
+.tabla-personal {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabla-personal th,
+.tabla-personal td {
+  border: 1px solid #888;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Estilo del formulario */
+.formulario input,
+.formulario textarea {
+  width: 90%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.formulario button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #45a049;
+}
+
+
+
+
